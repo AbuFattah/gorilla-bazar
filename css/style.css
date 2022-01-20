@@ -1,4 +1,6 @@
+
 body{
+  position: relative;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -30,4 +32,8 @@ body{
 
 .card{
   min-height: 25rem;
+}
+
+.contact{
+  background-color: #FEEAE9;
 }

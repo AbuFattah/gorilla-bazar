@@ -19,232 +19,256 @@
   <title>Gorilla Bazar</title>
 </head>
 
-<header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img class="img-fluid" src="./images/logo.png" alt="logo"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
-
-<!-- CAROUSEL SECTION -->
-
-<section class="showcase my-5">
-  <div class="container">
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner carousel-box p-5 rounded-3">
-        <div class="carousel-item active">
-          <div class="row align-items-center justify-content-between ms-3">
-            <div class="col-md-6 ">
-              <div class="left-content">
-                <h2 class="display-5 fw-bold">Mi LED TV 4A PRO 32</h2>
-                <p class="text-muted">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
-                  enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                </p>
-                <p class="display-5 price">$1200</p>
-                <button type="button" class="btn btn-pink px-3 py-2">Buy Now <i
-                    class="fas fa-arrow-right px-2"></i></button>
-              </div>
-            </div>
-            <div class="col-md-6 text-sm-center text-end">
-              <div class="right-content">
-                <img src="./images/banner-images/tv.png" class="w-75" alt="tv-image">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row align-items-center">
-            <div class="col-md-6">
-              <div class="left-content">
-                <h2 class="display-5 fw-bold"> XBOX for Your Home</h2>
-                <p class="text-muted">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
-                  enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                </p>
-                <p class="display-5 price">$1200</p>
-                <button type="button" class="btn btn-pink px-3 py-2 rounded-2">Buy Now <i
-                    class="fas fa-arrow-right px-2"></i></button>
-              </div>
-            </div>
-            <div class="col-md-6 text-sm-center text-end">
-              <div class="right-content">
-                <img src="./images/banner-images/xbox.png" class="w-75" alt="xbox">
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="carousel-item">
-          <div class="row align-items-center">
-            <div class="col-md-6">
-              <div class="left-content">
-                <h2 class="display-5 fw-bold">Esports Headphone for Gamers</h2>
-                <p class="text-muted">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
-                  enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                </p>
-                <p class="display-5 price">$1200</p>
-                <button type="button" class="btn btn-pink px-3 py-2 rounded-2">Buy Now <i
-                    class="fas fa-arrow-right px-2"></i></button>
-              </div>
-            </div>
-            <div class="col-md-6 text-sm-center text-end">
-              <div class="right-content">
-                <img src="./images/banner-images/headphone.png" class=" w-75" alt="headphoe">
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-</section>
-
-<!-- CATEGORIES -->
-<section class="categories py-5" id="categories">
-  <div class="container">
-    <h3 class="h3 my-5">Categories</h3>
-    <div class="row g-3">
-      <div class="col-md-6 col-lg-4">
-        <div class="category rounded-3 category--watch py-2 px-3 p-3 d-flex justify-content-between align-items-center">
-          <h1 class="display-5">Watch</h1>
-          <img src="./images/categories/watch.png" alt="watch">
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="category rounded-3  category--bag py-2 px-3 p-3 d-flex justify-content-between align-items-center">
-          <h1 class="display-5">Bag</h1>
-          <img src="./images/categories/bag.png" alt="bag">
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="category rounded-3 category--shoes py-2 px-3 p-3 d-flex justify-content-between align-items-center">
-          <h1 class="display-5">Watch</h1>
-          <img src="./images/categories/shoes.png" alt="shoes">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- PRODUCTS SECTION -->
-<section class="products bg-secondary bg-opacity-10 py-4" id="products">
-  <!-- SHOES -->
-  <div class="container my-5 py-3">
-    <h3 class="h3 my-5">Shoes</h3>
-    <div class="row g-5 card-container">
-      <div class="col-md-6 col-lg-4">
-        <div class="card shadow bg-white rounded-3 pb-4 px-3 pt-2  align-items-center">
-          <img class="img-fluid w-75" src="./images/shoes/shoe-1.png" alt="">
-          <p class="h5 my-4"> Reebok Dart Men's Shoes</p>
-          <p class="text-muted lh-base"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
-          <p class="h3">$1289</p>
-          <button type="button" class="btn btn-dark btn-lg">Buy Now <i class="fas fa-arrow-right px-2"></i></button>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="card shadow bg-white rounded-3 pb-4 px-3 pt-2  align-items-center">
-          <img class="img-fluid w-75" src="./images/shoes/shoe-2.png" alt="">
-          <p class="h5 my-4"> Reebok Dart Men's Shoes</p>
-          <p class="text-muted lh-base"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
-          <p class="h3">$1289</p>
-          <button type="button" class="btn btn-dark btn-lg">Buy Now <i class="fas fa-arrow-right px-2"></i></button>
-        </div>
-
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="card shadow bg-white rounded-3 pb-4 px-3 pt-2  align-items-center">
-          <img class="img-fluid w-75" src="./images/shoes/shoe-3.png" alt="">
-          <p class="h5 my-4"> Reebok Dart Men's Shoes</p>
-          <p class="text-muted lh-base"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
-          <p class="h3">$1289</p>
-          <button type="button" class="btn btn-dark btn-lg">Buy Now <i class="fas fa-arrow-right px-2"></i></button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- BAGS -->
-  <div class="container my-5 py-3">
-    <h3 class="h3 my-5">Backpack</h3>
-    <div class="row g-5">
-      <div class="col-md-6 col-lg-4">
-        <div class="card shadow bg-white rounded-3 pb-4 px-3 pt-2  align-items-center">
-          <img class="img-fluid w-75" src="./images/bags/bag-1.png" alt="">
-          <p class="h5 my-4"> Ison Backpack</p>
-          <p class="text-muted lh-base"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
-          <p class="h3">$1289</p>
-          <button type="button" class="btn btn-dark btn-lg">Buy Now <i class="fas fa-arrow-right px-2"></i></button>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="card shadow bg-white rounded-3 pb-4 px-3 pt-2  align-items-center">
-          <img class="img-fluid w-75" src="./images/bags/bag-2.png" alt="">
-          <p class="h5 my-4"> Biaowang Backpack</p>
-          <p class="text-muted lh-base"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
-          <p class="h3">$1289</p>
-          <button type="button" class="btn btn-dark btn-lg">Buy Now <i class="fas fa-arrow-right px-2"></i></button>
-        </div>
-
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="card shadow bg-white rounded-3 pb-4 px-3 pt-2  align-items-center">
-          <img class="img-fluid w-75" src="./images/bags/bag-3.png" alt="">
-          <p class="h5 my-4"> Dxyizu WS54 Smart</p>
-          <p class="text-muted lh-base"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
-          <p class="h3">$1289</p>
-          <button type="button" class="btn btn-dark btn-lg">Buy Now <i class="fas fa-arrow-right px-2"></i></button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</section>
 
 
 <body>
+  <header class="sticky-top">
+    <nav class=" navbar navbar-expand-lg navbar-light bg-light shadow">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img class="img-fluid" src="./images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- CAROUSEL SECTION -->
+
+  <section id="home" class="showcase my-5">
+    <div class="container">
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner carousel-box p-5 rounded-3">
+          <div class="carousel-item active">
+            <div class="row align-items-center justify-content-between ms-3">
+              <div class="col-md-6 ">
+                <div class="left-content">
+                  <h2 class="display-5 fw-bold">Mi LED TV 4A PRO 32</h2>
+                  <p class="text-muted">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis
+                    enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                  </p>
+                  <p class="display-5 price">$1200</p>
+                  <button type="button" class="btn btn-pink px-3 py-2">Buy Now <i
+                      class="fas fa-arrow-right px-2"></i></button>
+                </div>
+              </div>
+              <div class="col-md-6 text-sm-center text-end">
+                <div class="right-content">
+                  <img src="./images/banner-images/tv.png" class="w-75" alt="tv-image">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <div class="left-content">
+                  <h2 class="display-5 fw-bold"> XBOX for Your Home</h2>
+                  <p class="text-muted">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis
+                    enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                  </p>
+                  <p class="display-5 price">$1200</p>
+                  <button type="button" class="btn btn-pink px-3 py-2 rounded-2">Buy Now <i
+                      class="fas fa-arrow-right px-2"></i></button>
+                </div>
+              </div>
+              <div class="col-md-6 text-sm-center text-end">
+                <div class="right-content">
+                  <img src="./images/banner-images/xbox.png" class="w-75" alt="xbox">
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <div class="left-content">
+                  <h2 class="display-5 fw-bold">Esports Headphone for Gamers</h2>
+                  <p class="text-muted">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis
+                    enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                  </p>
+                  <p class="display-5 price">$1200</p>
+                  <button type="button" class="btn btn-pink px-3 py-2 rounded-2">Buy Now <i
+                      class="fas fa-arrow-right px-2"></i></button>
+                </div>
+              </div>
+              <div class="col-md-6 text-sm-center text-end">
+                <div class="right-content">
+                  <img src="./images/banner-images/headphone.png" class=" w-75" alt="headphoe">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="categories py-5" id="categories">
+    <div class="container">
+      <h3 class="h3 my-5">Categories</h3>
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-4">
+          <div
+            class="category rounded-3 category--watch py-2 px-3 p-3 d-flex justify-content-between align-items-center">
+            <h1 class="display-5">Watch</h1>
+            <img src="./images/categories/watch.png" alt="watch">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div
+            class="category rounded-3  category--bag py-2 px-3 p-3 d-flex justify-content-between align-items-center">
+            <h1 class="display-5">Bag</h1>
+            <img src="./images/categories/bag.png" alt="bag">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div
+            class="category rounded-3 category--shoes py-2 px-3 p-3 d-flex justify-content-between align-items-center">
+            <h1 class="display-5">Watch</h1>
+            <img src="./images/categories/shoes.png" alt="shoes">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS SECTION -->
+  <section class="products bg-secondary bg-opacity-10 py-4" id="products">
+    <!-- SHOES -->
+    <div class="container my-5 py-3">
+      <h3 class="h3 my-5">Shoes</h3>
+      <div class="row g-5 card-container">
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow bg-white rounded-3 pb-4 px-3 pt-2  align-items-center">
+            <img class="img-fluid w-75" src="./images/shoes/shoe-1.png" alt="">
+            <p class="h5 my-4"> Reebok Dart Men's Shoes</p>
+            <p class="text-muted lh-base"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+            </p>
+            <p class="h3">$1289</p>
+            <button type="button" class="btn btn-dark btn-lg">Buy Now <i class="fas fa-arrow-right px-2"></i></button>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow bg-white rounded-3 pb-4 px-3 pt-2  align-items-center">
+            <img class="img-fluid w-75" src="./images/shoes/shoe-2.png" alt="">
+            <p class="h5 my-4"> Reebok Dart Men's Shoes</p>
+            <p class="text-muted lh-base"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+            </p>
+            <p class="h3">$1289</p>
+            <button type="button" class="btn btn-dark btn-lg">Buy Now <i class="fas fa-arrow-right px-2"></i></button>
+          </div>
+
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow bg-white rounded-3 pb-4 px-3 pt-2  align-items-center">
+            <img class="img-fluid w-75" src="./images/shoes/shoe-3.png" alt="">
+            <p class="h5 my-4"> Reebok Dart Men's Shoes</p>
+            <p class="text-muted lh-base"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+            </p>
+            <p class="h3">$1289</p>
+            <button type="button" class="btn btn-dark btn-lg">Buy Now <i class="fas fa-arrow-right px-2"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BAGS -->
+    <div class="container my-5 py-3">
+      <h3 class="h3 my-5">Backpack</h3>
+      <div class="row g-5">
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow bg-white rounded-3 pb-4 px-3 pt-2  align-items-center">
+            <img class="img-fluid w-75" src="./images/bags/bag-1.png" alt="">
+            <p class="h5 my-4"> Ison Backpack</p>
+            <p class="text-muted lh-base"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+            </p>
+            <p class="h3">$1289</p>
+            <button type="button" class="btn btn-dark btn-lg">Buy Now <i class="fas fa-arrow-right px-2"></i></button>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow bg-white rounded-3 pb-4 px-3 pt-2  align-items-center">
+            <img class="img-fluid w-75" src="./images/bags/bag-2.png" alt="">
+            <p class="h5 my-4"> Biaowang Backpack</p>
+            <p class="text-muted lh-base"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+            </p>
+            <p class="h3">$1289</p>
+            <button type="button" class="btn btn-dark btn-lg">Buy Now <i class="fas fa-arrow-right px-2"></i></button>
+          </div>
+
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow bg-white rounded-3 pb-4 px-3 pt-2  align-items-center">
+            <img class="img-fluid w-75" src="./images/bags/bag-3.png" alt="">
+            <p class="h5 my-4"> Dxyizu WS54 Smart</p>
+            <p class="text-muted lh-base"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+            </p>
+            <p class="h3">$1289</p>
+            <button type="button" class="btn btn-dark btn-lg">Buy Now <i class="fas fa-arrow-right px-2"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact py-5">
+    <div class="container text-center">
+      <h3 class="display-5 pt-3   text-uppercase">let's stay in touch</h3>
+      <p class="text-muted">Get updates on sales specials and more</p>
+      <div class="input-group mb-3 mx-auto w-50 pb-3">
+        <input type="email" class="form-control  border-0" placeholder="Enter your email">
+        <button class="btn btn-pink btn-lg" type="button" id="button-addon2">Send</button>
+      </div>
+    </div>
+  </section>
 
 
 
