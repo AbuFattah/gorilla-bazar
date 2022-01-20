@@ -7,11 +7,17 @@ body{
 .carousel-box{
   background-color: #FEEAE9;
 }
+.right-content{
+  max-width: 400px;
+  max-height: 400px;
+  margin-left: auto;
+}
+
 
 .btn-pink{
-  background-image: linear-gradient(#FA0866,#FF589B);
-  color: #fff;
-  font-size: 1.3rem;
+  position: relative;
+  z-index: 5000;
+  background:#FA0866;
 }
 
 
@@ -20,19 +26,19 @@ body{
 }
 
 .category--watch{
-  background-image: linear-gradient(#FF9C35,#FFD019) ;
+  background-color:#FF9C35 ;
 }
 
 .category--bag{
-  background-image: linear-gradient(#FA0866,#FF589B);
+  background:#FA0866;
 }
 .category--shoes{
-  background-image: linear-gradient(#4289FF,#3F07F8);
+  background:#3F07F8;
 }
 
-.card{
+/* .card{
   min-height: 25rem;
-}
+} */
 
 .contact{
   background-color: #FEEAE9;
