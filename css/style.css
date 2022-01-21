@@ -16,7 +16,7 @@ body{
 
 .btn-pink{
   position: relative;
-  z-index: 5000;
+  z-index: 10;
   background:#FA0866;
 }
 
@@ -35,10 +35,10 @@ body{
 .category--shoes{
   background:#3F07F8;
 }
-
-/* .card{
+.card{
   min-height: 25rem;
-} */
+}
+/*  */
 
 .contact{
   background-color: #FEEAE9;
