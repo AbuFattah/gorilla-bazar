@@ -3,8 +3,13 @@ body{
   position: relative;
   font-family: 'Poppins', sans-serif;
 }
-.logo{
-  margin-right: 300px;
+
+/* .search{
+  margin-left: 300px;
+} */
+
+.navbar-collapse{
+  gap: 130px;
 }
 
 .carousel-box{
