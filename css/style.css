@@ -4,9 +4,14 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-/* .search{
-  margin-left: 300px;
+.search-box{
+  flex-basis: 500px;
+}
+
+/* .navbar-nav{
+  flex: 1;
 } */
+
 
 .navbar-collapse{
   gap: 130px;
