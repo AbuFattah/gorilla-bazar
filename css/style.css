@@ -3,6 +3,9 @@ body{
   position: relative;
   font-family: 'Poppins', sans-serif;
 }
+.logo{
+  margin-right: 300px;
+}
 
 .carousel-box{
   background-color: #FEEAE9;
